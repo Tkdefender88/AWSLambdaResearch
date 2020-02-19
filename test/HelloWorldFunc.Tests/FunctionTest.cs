@@ -18,11 +18,15 @@ namespace HelloWorldFunc.Tests
         {
 
             // Invoke the lambda function and confirm the string was upper cased.
-            var function = new Function();
+            var function = new DisplayNewUser();
             var context = new TestLambdaContext();
-            var upperCase = function.FunctionHandler("hello world", context);
+            var resp = function.FunctionHandler(new NewUser
+            {
+                FirstName = "Joe",
+                LastName = "Bob"
+            }, context);
 
-            Assert.Equal("HELLO WORLD", upperCase);
+            Assert.Equal("Welcome new user, Joe Bob", resp);
         }
     }
 }

@@ -1,0 +1,5 @@
+.vscode/
+
+# auto generated directories
+obj/
+bin/
