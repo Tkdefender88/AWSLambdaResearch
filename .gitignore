@@ -1,4 +1,5 @@
 .vscode/
+.idea/
 
 # auto generated directories
 obj/
