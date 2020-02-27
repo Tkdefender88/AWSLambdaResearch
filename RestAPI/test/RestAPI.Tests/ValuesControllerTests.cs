@@ -11,10 +11,10 @@ using Amazon.Lambda.APIGatewayEvents;
 
 using Newtonsoft.Json;
 
-using HelloWorldFunc;
+using RestAPI;
 
 
-namespace HelloWorldFunc.Tests
+namespace RestAPI.Tests
 {
     public class ValuesControllerTests
     {

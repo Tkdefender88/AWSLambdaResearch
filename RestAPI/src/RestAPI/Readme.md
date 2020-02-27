@@ -63,12 +63,12 @@ If already installed check if new version is available.
 
 Execute unit tests
 ```
-    cd "HelloWorldFunc/test/HelloWorldFunc.Tests"
+    cd "RestAPI/test/RestAPI.Tests"
     dotnet test
 ```
 
 Deploy application
 ```
-    cd "HelloWorldFunc/src/HelloWorldFunc"
+    cd "RestAPI/src/RestAPI"
     dotnet lambda deploy-serverless
 ```

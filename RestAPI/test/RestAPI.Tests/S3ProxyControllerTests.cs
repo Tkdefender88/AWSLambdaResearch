@@ -17,10 +17,10 @@ using Amazon.S3;
 using Amazon.S3.Util;
 using Amazon.S3.Model;
 
-using HelloWorldFunc;
+using RestAPI;
 
 
-namespace HelloWorldFunc.Tests
+namespace RestAPI.Tests
 {
     public class S3ProxyControllerTests : IDisposable
     {
